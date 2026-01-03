@@ -2,5 +2,5 @@ package springcertified.cashcard;
 
 import org.springframework.data.annotation.Id;
 
-record CashCard(@Id long id, Double amount) {
+record CashCard(@Id Long id, Double amount) {
 }
